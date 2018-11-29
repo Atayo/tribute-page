@@ -1,0 +1,179 @@
+html,body{
+  font-family:"Trebuchet MS", Helvetica,   sans-serif;
+  text-align:center;
+  min-width:260px;
+  color:#333333;  
+}
+@media only screen and (max-width:620px) {
+nav a{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+ body h2{ 
+  color:red;
+  top:600px;
+  font-size:70%;
+  left:15px;
+  line-height:13px;
+    }
+ body #words, body #words1{ 
+  margin:7px 7px;
+  text-align:center;
+    }
+}
+#main{
+  margin:0 auto;
+  background:#F2F0EE;
+}
+header,
+footer {
+  background-color:#d0c8c3;
+  padding: 1rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+nav > #titles {
+  font-family: Helvetica Neue;
+  color: grey;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: -3px;
+}
+nav > a {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(153, 153, 153);
+  padding: 10px 20px;
+}
+nav > a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+h2{
+  top:520px;
+  font-size:28px;
+  line-height: 30px;
+  text-align:center;
+  color:rgba(255, 255, 255,0.25);
+  position:absolute;
+  z-index:2;
+  left: 112px;
+   }
+#img-div{
+  width:100%;
+  background-color:black; 
+  margin:0px 0px -60px 0px;
+}
+#image1{
+  max-width: 100%;
+  margin-bottom:15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
+  height: auto;  
+}
+#img-caption{
+  color: white;
+  display:block;
+}
+#intro,#personal-life, #career,#books{
+  font-size:60px;
+  font-family: 'Cabin Sketch', cursive;
+}
+#tribute-info > h3{
+  margin-left:33px;
+  margin-top:50px;
+  text-align:left;
+}
+ul{
+  list-style:circle;
+  margin:0 auto;
+  text-align:left;
+  word-spacing: 0.02em
+    }
+li{
+  margin:10px; 
+}
+#personal-life{
+  margin-bottom:40px; 
+}
+#image2{
+  max-width: 50%; 
+  margin:-40px 0px 9px 0px;
+  border-radius: 900px;
+  float:left;
+}
+#personalp{
+  background-color:white;
+  width:100%;
+}
+#words,#words1{
+  margin-left:150px;
+  margin-right:150px;
+  text-align:center;
+}
+#externalweb-link{
+ color:rgb(189, 69, 62); 
+}
+blockquote{
+  font-style: italic;
+}
+.layout p{
+  font-size: 30px; 
+}
+.layout{
+  margin: 0 auto;
+  max-width: 1300px;
+  background-color:white;
+}
+.book,.book2,.book3{
+  display: inline-block;
+  width: 230px;
+  box-shadow: 0 0 20px #aaa;
+  margin: 25px;
+  padding: 10px 10px 0 10px;
+  vertical-align: top;
+  transition: height 1s;
+}
+.book{
+  height:370px;
+}
+.book2{
+  height:329px;
+}
+.book3{
+  height: 300px;
+} 
+.cover,.cover2,.cover3 {
+  border: 2px solid grey;
+  overflow: hidden;
+}
+.cover {
+  height: 84%; 
+}
+.cover2 {
+  height: 79%; 
+}
+.cover3 {
+  height: 75%;
+}
+.cover img,.cover2 img,.cover3 img{
+  width: 100%;
+}
+.book p,.book2 p,.book3 p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+footer{
+  color:white;
+}
+h4{
+  font-size:25px;
+  text-align:left;
+  margin-left:5px;
+}
+#tribute-link {
+  color:rgb(189, 69, 62);
+  text-decoration:none;
+}
+
